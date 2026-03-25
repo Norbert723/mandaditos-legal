@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidad – ESI Soluciones Tecnológicas</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f7f8fc;
+      color: #333;
+      line-height: 1.7;
+    }
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 32px 20px 24px;
+      text-align: center;
+    }
+    header h1 { font-size: 1.8rem; font-weight: 800; margin-bottom: 4px; }
+    header p  { font-size: 0.9rem; opacity: 0.85; }
+    .container { max-width: 760px; margin: 40px auto; padding: 0 20px 60px; }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+      margin-bottom: 20px;
+    }
+    h2 {
+      color: #4a90e2;
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    p, li { font-size: 0.95rem; color: #444; margin-bottom: 8px; }
+    ul { padding-left: 20px; }
+    ul li { margin-bottom: 4px; }
+    .updated { text-align: center; color: #999; font-size: 0.85rem; margin-bottom: 32px; }
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 0.82rem;
+      color: #aaa;
+      border-top: 1px solid #eee;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🛵 Mandaditos</h1>
+  <h2>ESI Soluciones Tecnológicas</h2>
+  <p>Política de Privacidad</p>
+</header>
+
+<nav class="nav">
+  <a href="index.html" class="active">Política de Privacidad</a>
+  <a href="terms.html">Términos y Condiciones</a>
+</nav>
+
+<div class="container">
+  <p class="updated">Última actualización: marzo de 2026 &nbsp;·&nbsp; Versión 1.0</p>
+
+  <div class="card">
+    <h2>1. Responsable del tratamiento</h2>
+    <p>
+      <strong>ESI Soluciones Tecnológicas</strong> ("la Empresa") es responsable del tratamiento
+      de los datos personales que recopila a través de la aplicación <strong>Mandaditos</strong>,
+      plataforma de entrega a domicilio.
+    </p>
+    <p>
+      Operamos conforme a la <strong>Ley Federal de Protección de Datos Personales en Posesión
+      de los Particulares (LFPDPPP)</strong> y su Reglamento, vigentes en los Estados Unidos Mexicanos.
+    </p>
+    <ul>
+      <li>📧 Privacidad: <strong>privacidad@esisoluciones.mx</strong></li>
+      <li>📧 Soporte: <strong>soporte@esisoluciones.mx</strong></li>
+      <li>🌐 <strong>esi-soluciones.ddns.net</strong></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>2. Datos que recopilamos</h2>
+    <ul>
+      <li>Nombre completo</li>
+      <li>Correo electrónico</li>
+      <li>Número de teléfono</li>
+      <li>Dirección de entrega y coordenadas GPS</li>
+      <li>Historial de pedidos</li>
+      <li>Información del dispositivo móvil</li>
+      <li>Token de notificaciones push (FCM – Firebase Cloud Messaging)</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>3. Finalidad del tratamiento</h2>
+    <p>Utilizamos tus datos para:</p>
+    <ul>
+      <li>Gestionar tu cuenta y autenticación segura</li>
+      <li>Procesar y coordinar la entrega de tus pedidos</li>
+      <li>Enviarte notificaciones sobre el estado de tus pedidos</li>
+      <li>Mejorar la calidad de nuestros servicios</li>
+      <li>Cumplir obligaciones legales aplicables</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>4. Transferencia de datos a terceros</h2>
+    <p>Tus datos pueden ser compartidos únicamente con:</p>
+    <ul>
+      <li><strong>Negocios afiliados:</strong> nombre y dirección de entrega, estrictamente para preparar tu pedido.</li>
+      <li><strong>Repartidores:</strong> nombre y punto de entrega, durante el proceso de envío activo.</li>
+      <li><strong>Firebase (Google):</strong> autenticación segura con verificación de correo y notificaciones push.</li>
+      <li><strong>Servicios de mapas:</strong> OpenStreetMap y Mapbox para resolución de coordenadas y visualización de rutas.</li>
+    </ul>
+    <p>No vendemos ni cedemos tus datos a terceros con fines publicitarios bajo ninguna circunstancia.</p>
+  </div>
+
+  <div class="card">
+    <h2>5. Seguridad</h2>
+    <ul>
+      <li>Las contraseñas se almacenan con hash criptográfico (nunca en texto plano).</li>
+      <li>Acceso a datos restringido por roles y autenticación JWT.</li>
+      <li>Autenticación de doble factor por correo electrónico mediante Firebase Auth.</li>
+      <li>Comunicaciones protegidas mediante HTTPS en el entorno de producción.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>6. Ubicación (GPS)</h2>
+    <p>
+      Solicitamos acceso a tu ubicación únicamente para autocompletar tu dirección de entrega
+      durante el registro y para el seguimiento en tiempo real de los repartidores mientras
+      tienen pedidos activos asignados. No recopilamos ubicación en segundo plano fuera de ese contexto.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>7. Retención y eliminación de datos</h2>
+    <p>
+      Conservamos tus datos mientras tu cuenta permanezca activa.
+    </p>
+    <p>
+      Para solicitar la eliminación de tus datos personales, puedes contactarnos directamente.
+      Atenderemos tu solicitud dentro de los <strong>30 días hábiles</strong> siguientes,
+      salvo aquellos datos que deban conservarse por obligación legal o fiscal.
+    </p>
+    <p>Escríbenos a: <strong>privacidad@esisoluciones.mx</strong></p>
+  </div>
+
+  <div class="card">
+    <h2>8. Derechos ARCO</h2>
+    <p>Conforme a la LFPDPPP, tienes derecho a:</p>
+    <ul>
+      <li><strong>Acceso:</strong> conocer qué datos personales tenemos sobre ti.</li>
+      <li><strong>Rectificación:</strong> corregir datos inexactos o incompletos.</li>
+      <li><strong>Cancelación:</strong> solicitar la eliminación de tus datos.</li>
+      <li><strong>Oposición:</strong> oponerte al tratamiento de tus datos.</li>
+    </ul>
+    <p>Envía tu solicitud a <strong>privacidad@esisoluciones.mx</strong> indicando tu nombre,
+    correo registrado y el derecho que deseas ejercer. Responderemos en máximo 20 días hábiles.</p>
+  </div>
+
+  <div class="card">
+    <h2>9. Menores de edad</h2>
+    <p>
+      Nuestro servicio no está dirigido a menores de 18 años. Si tienes conocimiento de que
+      un menor ha proporcionado sus datos sin consentimiento, contáctanos para proceder a
+      su eliminación inmediata.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>10. Cambios a esta política</h2>
+    <p>
+      ESI Soluciones Tecnológicas se reserva el derecho de actualizar esta Política de Privacidad.
+      Notificaremos los cambios relevantes a través de la aplicación con al menos
+      <strong>15 días naturales</strong> de anticipación. El uso continuado de la aplicación
+      tras dicha notificación implica la aceptación de los cambios.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>11. Contacto</h2>
+    <ul>
+      <li>📧 Privacidad y derechos ARCO: <strong>privacidad@esisoluciones.mx</strong></li>
+      <li>📧 Soporte general: <strong>soporte@esisoluciones.mx</strong></li>
+      <li>🌐 <strong>esi-soluciones.ddns.net</strong></li>
+    </ul>
+  </div>
+</div>
+
+<footer>
+  &copy; 2026 ESI Soluciones Tecnológicas &mdash; Todos los derechos reservados.<br/>
+  Mandaditos &mdash; Plataforma de entrega a domicilio
+</footer>
+
+</body>
+</html>
